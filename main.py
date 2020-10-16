@@ -7,7 +7,7 @@ import socket
 from umqtt.simple import MQTTClient
 from utime import sleep
 
-server_name = "serv.lon.home"
+server_name = "mqtt.broker.here" # insecure connection to mqtt broker, dont use on main net, home net should be ok.
 unique_id = "garage_door"
 username = "" # put it here
 passwd = "" # put yours here
