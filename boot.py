@@ -19,7 +19,7 @@ def wifi_connect(mode=0):
 
     if mode == 0:
         ssid = "" # put yours here
-		passwd = "" # likewise
+	passwd = "" # likewise
         timeout = 0
         if not wlan.isconnected():
             print("Trying to Connect.", end="")
